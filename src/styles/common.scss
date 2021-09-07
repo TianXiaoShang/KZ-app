@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$barHeight: 60px;
+.page-content {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+.tab-bar {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: $barHeight;
+}
+
+.page-container {
+    height: calc(100vh - 60px);
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+// 解决二维码生成在真机尺寸不对的bug
+.tki-qrcode {
+    canvas {
+        width: 150px !important;
+        height: 150px !important;
+    }
+}

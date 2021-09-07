@@ -1,0 +1,55 @@
+{
+    "pages": [{
+        "path": "pages/index/index",
+        "style": {
+            "navigationBarTitleText": "首页"
+        }
+    }],
+    "subpackages": [
+
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8",
+        "navigationStyle": "custom",
+        "usingComponents": {
+            "van-button": "/wxcomponents/button/index",
+            "van-field": "/wxcomponents/field/index",
+            "van-switch": "/wxcomponents/switch/index",
+            "van-search": "/wxcomponents/search/index",
+            "van-cell-group": "/wxcomponents/cell-group/index",
+            "van-cell": "/wxcomponents/cell/index",
+            "van-radio": "/wxcomponents/radio/index",
+            "van-radio-group": "/wxcomponents/radio-group/index",
+            "van-checkbox": "/wxcomponents/checkbox/index",
+            "van-checkbox-group": "/wxcomponents/checkbox-group/index",
+            "van-picker": "/wxcomponents/picker/index",
+            "van-popup": "/wxcomponents/popup/index",
+            "van-grid": "/wxcomponents/grid/index",
+            "van-grid-item": "/wxcomponents/grid-item/index",
+            "van-row": "/wxcomponents/row/index",
+            "van-col": "/wxcomponents/col/index",
+            "van-count-down": "/wxcomponents/count-down/index",
+            "van-icon": "/wxcomponents/icon/index",
+            "van-tab": "/wxcomponents/tab/index",
+            "van-tabs": "/wxcomponents/tabs/index",
+            "van-divider": "/wxcomponents/divider/index",
+            "van-dialog": "/wxcomponents/dialog/index",
+            "van-toast": "/wxcomponents/toast/index",
+            "van-stepper": "/wxcomponents/stepper/index",
+            "van-slider": "/wxcomponents/slider/index",
+            "van-tag": "/wxcomponents/tag/index",
+            "van-loading": "/wxcomponents/loading/index",
+            "van-overlay": "/wxcomponents/overlay/index",
+            "van-collapse": "/wxcomponents/collapse/index",
+            "van-collapse-item": "/wxcomponents/collapse-item/index",
+            "van-dropdown-item": "/wxcomponents/dropdown-item/index",
+            "van-dropdown-menu": "/wxcomponents/dropdown-menu/index",
+            "van-empty": "/wxcomponents/empty/index",
+            "van-notice-bar": "/wxcomponents/notice-bar/index",
+            "van-image": "/wxcomponents/image/index"
+        }
+    }
+}
