@@ -5,9 +5,7 @@
             "navigationBarTitleText": "首页"
         }
     }],
-    "subpackages": [
-
-    ],
+    "subpackages": [],
     "globalStyle": {
         "navigationBarTextStyle": "black",
         "navigationBarTitleText": "uni-app",
