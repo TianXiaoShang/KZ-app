@@ -15,7 +15,7 @@
 import { navBar } from "@/component/nav-bar";
 export default {
   name: "Activity",
-  components: [navBar],
+  components: {navBar},
   data() {
     return {};
   },

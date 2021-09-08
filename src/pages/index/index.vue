@@ -69,7 +69,7 @@ export default {
     };
   },
   onLoad(option) {
-    this.currentTabIndex = option.index || 0;
+    this.currentTabIndex = option.index || 3;
   },
   watch: {
     // // 初次进入小程序，在登陆前请求其他接口会报错。

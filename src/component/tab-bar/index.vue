@@ -18,6 +18,10 @@
 </template>
 
 <script>
+import tab1 from '@/static/image/tab1.png';
+import tab2 from '@/static/image/tab2.png';
+import tab3 from '@/static/image/tab3.png';
+import tab4Active from '@/static/image/tab4-active.png';
 export default {
   name: "TabBar",
   data() {

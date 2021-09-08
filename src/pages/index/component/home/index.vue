@@ -58,7 +58,7 @@
 import { navBar } from "@/component/nav-bar";
 export default {
   name: "Home",
-  components: [navBar],
+  components: {navBar},
   data() {
     return {};
   },

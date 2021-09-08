@@ -6,7 +6,6 @@ import globalMixin from "@/mixin/global-mixin";
 
 Vue.config.productionTip = false;
 Vue.prototype.$store = store;
-App.mpType = 'app';
 Vue.use(globalMixin);
 
 // 全局组件，navbar

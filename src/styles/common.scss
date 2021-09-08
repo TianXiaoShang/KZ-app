@@ -34,3 +34,37 @@ $barHeight: 60px;
         height: 150px !important;
     }
 }
+
+// 图片图标
+.common-img-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    margin-top: 2px;
+}
+
+// cell
+.common-cell /deep/ .van-cell {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: #333333;
+    .van-cell_value {
+        color: #999999;
+    }
+}
+
+// cell-group间距
+.common-cell-group {
+    margin-bottom: 8px;
+}
+
+// 分割
+.common-divider {
+    background: #F5F5F5;
+    height: 8px;
+}
+
+// cell底色
+.common-cell-wrap {
+    background: white;
+}
